@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  background: #000000fb;
+  color: white; 
+}
+.skills {
+
+	height: 25px;
+  color: white;
+}
+
+.socialIcon {
+  color: #0de599;
+
+  }
+.java {width: 80%; background-color: #99d6ff;}
+.html {width: 80%; background-color: #99d6ff;}
+.css {width: 80%; background-color: #99d6ff;}
+.js {width: 65%; background-color: #99d6ff;}
+.sql {width: 60%; background-color: #99d6ff;}
+.oracle {width: 50%; background-color: #99d6ff;}
+
+.App-logo {
+ width: 270px;
+ height: 300px;
+}
+
+.pig {
+  width: 150px;
+  height: 140px;
+ }
+.app-left{
+  padding-left: 40px;
+  width: 45%;
+}
+.app-right{
+
+ width:  55%;
+}
+.flex-container{
+  display:flex;
+  justify-content: space-around;
+
+}
+@media (max-width: 768 px){
+.App {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
